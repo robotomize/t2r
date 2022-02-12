@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "t2r"
+version = "0.0.0"
+description = ""
+authors = ["robotomize <robotomize@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+termcolor = "^1.1.0"
+pyOpenSSL = "^22.0.0"
+ndg-httpsclient = "^0.5.1"
+pyasn1 = "^0.4.8"
+pyfiglet = "^0.8.post1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
