@@ -1,5 +1,5 @@
 # t2r
-Getting a list of relays to use in the tor browser.
+Getting a list of relays to use in the tor browser
 
 ## Install
 
