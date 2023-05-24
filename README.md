@@ -1,9 +1,9 @@
 # t2r
-cli app for fetching tor relays
+Getting a list of relays to use in the tor browser.
 
-## Usage
+## Install
 
-Python3.9
+Install Python3.9
 
 ```shell
 python3 -m venv env
@@ -12,14 +12,13 @@ poetry install --no-dev
 python3 main.py
 ```
 
-### Options
-
-timeout - request timeout
-
-count - number of relays
-
-proxy - list of proxies
-
+### Example
 ```shell
 python3 --proxy 'http://8.8.8.8:8181,http:/9.9.9.9:9191' --timeout 3 --count 30 main.py
 ```
+
+### Options
+
+- timeout - request timeout
+- count - number of relays
+- proxy - list of proxies
